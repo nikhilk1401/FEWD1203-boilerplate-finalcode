@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Audiowide&family=Black+Ops+One&family=Chakra+Petch:wght@300;400;500;600;700&family=Courgette&family=Electrolize&family=Hahmlet:wght@100;200;400;500;600;700;800&family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Press+Start+2P&family=Roboto+Serif:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800&family=Skranji:wght@400;700&display=swap');
+
+/* Gobally declare margin and padding to zero using appropriate property*/
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-family: 'Poppins',sans-serif;
+}
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url(assets/background.jpeg);
+}
+h1 {
+    font-size: 3.6pc;
+}
+h2 {
+    font-size: 1.7pc;
+}
+h1,
+h2 {
+    font-weight: 500;
+}
+p {
+    width: 83%; /* Make the width of the paragraph to 83% */
+    font-size: 18px;
+    line-height: 30px;/* Make line height to 30px*/
+}
+h2,
+p {
+    margin-top: 1.8pc;
+}
+.common {
+    text-align: center; /* Align all the elements to the center*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.music {
+    color: #ffffff;
+    background: rgb(41, 41, 41); /* Make background color to rgb(41, 41, 41) */
+}
+a {
+    padding: 15px;
+    color: #ffffff;/* Make color to white */
+    background: red;/*Make background color to red*/
+    margin-top: 20px;
+    text-decoration: none;/* Remove text underline for the link*/
+}
+img {
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+}
+span {
+    margin: 2pc 0;
+    font-size: 20px;
+    font-weight: 500;
+}
