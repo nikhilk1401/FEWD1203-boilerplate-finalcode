@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Iteration 1: Use appropriate tag to link external CSS file-->
+    <link rel="stylesheet" href="style.css">
+    <title>FEWD1203</title>
+</head>
+<!--Iteration 2: Use appropriate tag to write internal CSS for selectors 'h1' and 'h2'
+                 give '55px' font size to 'h1' , '28px' to 'h2' and font weight 
+                 of '500' to both 'h1' and 'h2'-->
+<style>
+    h1 {
+        font-size: 55px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    h1,
+    h2 {
+        font-weight: 500;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="home">
+            <span id="move">
+                <h1>myTunes</h1>
+                <h2>Your music, movies, and TV shows take center stage.</h2>
+                <p>myTunes is the best way to organize and enjoy the music, movies, and TV shows you already have — and shop for the ones you want. Enjoy all the entertainment myTunes has to offer on your Mac and PC</p>
+            </span>
+        </div>
+        <!--Iteration 3: Use appropriate tag to write inline CSS for the class 'music' and change text color to 'white'-->
+        <div class="music" style="color: white;">
+            <h1>♫Music</h1>
+            <h2>45 million songs. Zero ads.</h2>
+            <p>Stream over 45 million songs, ad-free. Or download albums and tracks to listen to offline. All the music in your personal myTunes library — no matter where it came from — lives right alongside the Orange Music catalog. Start your free three-month trial with no commitment, and cancel anytime.</p><br>
+            <a href="#collection">Read More</a>
+            <p>Orange Music is available in myTunes, and for iOS and Android devices.</p>
+            <img src="assets/mockup.png" alt="image">
+        </div>
+        <div class="collection" id="collection">
+            <h2>The movie and TV collection you always wished for. Granted.</h2>
+            <p>With over 100,000 movies and TV shows to choose from, there’s always something great to watch on myTunes and if you watch on Orange TV 4K, you’ll be able to enjoy a tremendous selection of your favorite content in 4K HDR. So get ready to enjoy episodes of your favorite TV shows or hit movies you’ve been waiting to see — anytime, anywhere. Just tap to play, or even download if you’re going somewhere you won’t have Wi-Fi.</p><br>
+            <img src="assets/mockup2.png" alt="image">
+            <h2>A world of entertainment. Available wherever you are.</h2><br>
+            <span>Copyright © 2022 All rights reserved</span>
+        </div>
+    </div>
+</body>
+</html>

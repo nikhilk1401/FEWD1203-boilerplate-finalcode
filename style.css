@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Audiowide&family=Black+Ops+One&family=Chakra+Petch:wght@300;400;500;600;700&family=Courgette&family=Electrolize&family=Hahmlet:wght@100;200;400;500;600;700;800&family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Press+Start+2P&family=Roboto+Serif:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800&family=Skranji:wght@400;700&display=swap');
+
+* {
+    margin: 0; /* Iteration 4: Use appropriate property and give margin and padding value to 'zero' */
+    padding: 0;
+    text-align: center; 
+    scroll-behavior: smooth;
+}
+.container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-family: 'Poppins',sans-serif;
+}
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: #ffffff;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url(assets/background.jpeg);/* Iteration 5: Use appropriate property to apply an image to the background (background.jpeg)*/
+}
+#move {
+    position: relative;
+    top: 30%;
+}
+p {
+    font-size: 18px; /* Iteration 6: Use appropriate property to change font size to '18px' */
+    line-height: 30px; 
+}
+h2,
+p {
+    margin-top: 1.8pc;
+}
+.music {
+    background: rgb(41, 41, 41); /* Iteration 7: Use appropriate propert to change color of the background to rgb(41, 41, 41) */
+}
+a {
+    padding: 15px;
+    color: #ffffff;
+    background: red;/* Iteration 8: Use appropriate property to change background color to 'red' */
+    margin-top: 20px;
+    text-decoration: none;/* Iteration 9: Use appropriate property to remove text underline for the hyperlink */
+}
+img {
+    width: calc(100%-20%); /* Iteration 10: Use a appropriate function to change the width to 80% */
+    height: auto;
+    margin: 20px 0 ; /* Iteration 11: Use shortand property to have a margin of '20px' along y-axis */
+}
+span {
+    margin: 2pc 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* Iteration 12: Use appropriate @rule to change background color to 'lightgreen' when screen size have a 
+   maximum width of '800px' */
+@media (max-width:800px) {
+    body {
+        background-color: lightgreen;
+    }
+}
